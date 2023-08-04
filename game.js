@@ -7,7 +7,7 @@ var userChosenPattern = [];
 var started = false;
 var level = 0;
 
-$(document).on("touchstart",function() {
+$(document).on("tap",function() {
     if(!started) {
         $("#level-title").text("Level "+ level);
         nextSequence();
